@@ -1,0 +1,25 @@
+{
+  "name": "phaser3-boilerplate",
+  "version": "1.0.0",
+  "description": "Phaser 3 Boilerplate project",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "author": "Philipp Rost",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {
+    "phaser": "^3.3.0"
+  }
+}
